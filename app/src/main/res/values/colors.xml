@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryLight">#62efff</color>
+    <color name="colorPrimaryDark">#008ba3</color>
+
+    <color name="colorAccent">#9de24e</color>
+    <color name="colorAccentLight">#d1ff80</color>
+    <color name="colorAccentDark">#6ab014</color>
+
+    <color name="black">#000000</color>
+    <color name="greyDark">#8d8d8d</color>
+    <color name="grey">#bdbdbd</color>
+    <color name="greyLight">#eeeeee</color>
+    <color name="white">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="iconColored">@color/colorAccent</color>
+    <color name="quelle">@color/colorAccent</color>
+    <color name="ziel">@color/colorAccent</color>
+    <color name="background">#F2F2F2</color>
+
+    <color name="hoch">#E73729</color>
+    <color name="mittel">#FBBA00</color>
+    <color name="gering">#4CAC4E</color>
+    <color name="undefiniert">@color/grey</color>
+    <color name="ausstehen">@color/greyLight</color>
+    <color name="unerlaubt">@color/greyDark</color>
+
+    <color name="activated">#2600bcd4</color>
+</resources>

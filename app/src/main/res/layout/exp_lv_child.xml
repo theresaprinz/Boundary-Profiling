@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/delete_rolle"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="32dp"
+            android:src="@drawable/ic_rolle"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/kontext_rollen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/delete_rolle"
+            android:layout_marginRight="20dp"
+
+            android:text="@string/neue_rolle"
+            style="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/add_kontext"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="32dp"
+            android:src="@drawable/ic_add_kontext"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/newkontext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/add_kontext"
+            android:hint="@string/neuer_kontext"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            style="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item" />
+    </RelativeLayout>
+</LinearLayout>

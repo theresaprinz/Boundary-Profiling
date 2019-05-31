@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Boundary Profiling</string>
+
+    <!-- Menüs -->
+    <string name="appbar_definition">Definition</string>
+    <string name="appbar_uebersicht">Übersicht</string>
+    <string name="appbar_profiling">Boundary Profiling</string>
+
+    <string name="nav_uebersicht">Übersicht</string>
+    <string name="nav_definition">Definition</string>
+    <string name="nav_profiling">Profiling</string>
+
+    <string name="tab_kontext">Kontexte &amp; Rollen</string>
+    <string name="tab_kanäle">Kanäle</string>
+
+    <!-- Überschriften, Buttons und Schaltflächen -->
+    <string name="neuer_kontext">neuer Kontext</string>
+    <string name="neue_rolle">neue Rolle</string>
+    <string name="neuer_kanal">neuer Kanal</string>
+
+    <string name="quellKontext">Quell-kontext</string>
+    <string name="quellRolle">Quellrolle</string>
+    <string name="zielKontext">Zielkontext</string>
+    <string name="kanal">Kanal</string>
+
+    <string name="eindringlichkeit">Eindringlichkeit</string>
+    <string name="akzeptierung">Akzeptierung</string>
+
+    <string name="hoch">hoch</string>
+    <string name="mittel">mittel</string>
+    <string name="gering">gering</string>
+    <string name="undefinitert">Kein Profil</string>
+
+    <string name="akzeptanz">Akzeptanz</string>
+    <string name="ablehnung">Ablehnung</string>
+    <string name="situationsabhaengig">Situations-\nabhängig</string>
+
+    <string name="home_tableA">Zielkontexte -->\n\nQuellkontexte\nQuellrollen</string>
+
+    <string name="rolle_allgemein">Allgemein</string>
+
+    <string name="button_weiter">weiter</string>
+    <string name="button_ueberspringen">Überspringen</string>
+    <string name="button_teilen">Teilen</string>
+    <string name="button_hilfe">Hilfe</string>
+
+    <string name="Dot">&#8226;</string>
+
+    <!--Toasts-->
+    <string name="toast_quellkontext">Quellkontext wurde ausgewählt!</string>
+    <string name="toast_quellrolle">Quellrolle wurde ausgewählt!</string>
+    <string name="toast_zielkontext">Zielkontext wurde ausgewählt!</string>
+
+    <string name="toast_profil_vollstaendig">Profil wurden vollständig ausgefüllt!</string>
+    <string name="toast_edk_vollstaendig">Eindringlichkeiten wurden vollständig ausgefüllt!</string>
+    <string name="toast_edk_allundefiniert">Profil wurde vollständig ausgefüllt!</string>
+    <string name="toast_kein_profiling">Kein Profiling möglich!</string>
+
+    <string name="toast_mind1Kanal">Es muss mindestends ein Kanal existieren!</string>
+    <string name="toast_mind2Kontexte">Es müssen mindestends zwei Kontexte existieren!</string>
+
+    <!-- Validierungsfehler -->
+    <string name="error_BuchstabenAnz">Bitte zwischen 2 und 20 Buchstaben eingeben!</string>
+    <string name="error_existiert_bereits">Eintrag existiert bereits!</string>
+
+    <!--Intro Slider Felder-->
+    <string name="welcome_ueberschrift">Herzlich Willkommen!</string>
+    <string name="welcome_info">Um die wesentlichen Konzepte rund ums Boundary Profiling zu verstehen, drücken Sie auf weiter.</string>
+
+    <string name="welcome1_ueberschriftnr">1.</string>
+    <string name="welcome1_ueberschrift">Begriffe verstehen</string>
+    <string name="welcome1_info">Die folgenden Begriffe sind für das weitere Verständnis der Inhalte wesentlich!</string>
+    <string name="welcome1_K">Der Kontext</string>
+    <string name="welcome1_Ktext">enthält meist eindeutige Regeln, Denkmuster, Rollen und Verhaltensmuster, die eine Person einnimmt.
+        Im Folgendem wird zwischen <b> Quell- und Zielkontext </b> unterschieden, wobei eine Kommunikationsanfrage vom Quellkontext in den Zielkontext erfolgt.\n \n
+        Beispiele sind Arbeit, Familie, Universität oder Sport.
+    </string>
+    <string name="welcome1_R">Die Rolle</string>
+    <string name="welcome1_Rtext">ist Teil eines Kontextes. Eine Rolle <b>kann</b> verwendet werden um einen Kontext noch genauer zu spezifizieren.\n\n
+        Beispiele für den Kontext Arbeit sind Chef oder Mitarbeiter, zumindest aber die <b>Standardrolle Allgemein</b>. Diese wird von der Applikation für jeden Kontext automatisch angelegt.</string>
+    <string name="welcome1_D">Die Durchdringung</string>
+    <string name="welcome1_DEDKtext">meint, dass eine Person in einem gewissen Zielkontext (z.B. Familie) von einer Person in einem anderen Quellkontext (z.B. Arbeit - Chef) kontaktiert wird.\n\n
+        Durch diesen Kontakt ergibt sich eine so genannte Durchdringung eines Zielkontextes durch einen Quellkontext.
+        Diese Durchdringung kann durch verschiedene Kommunikationskanäle (Erklärung folgt) erfolgen.\n\n
+        Die <b> Eindringlichkeit</b> kann für jeden Kanal einer Durchdringung (folgend <b>Durchdringungskanal</b> genannt) unterschiedlich wahrgenommen werden.
+        Es wird zwischen folgenden Ausprägungen unterschieden.</string>
+    <string name="welcome1_DAtext">Unabhängig von der Eindringlichkeit des Durchdringungskanals wird ebenso dessen <b> Akzeptanz</b> beurteilt.
+        Es wird zwischen folgenden Ausprägungen unterschieden.</string>
+    <string name="welcome1_Dundeftext">Manche Kontexte, wie beispielsweise Sport oder Kochen, sind nur Zielkontexte und keine Quellkontexte, da von diesen keine Durchdringung ausgehen kann.
+        Somit ist keine Beurteilung von Eindringlichkeit und Akzeptanz möglich, weshalb diese Zusammensetzungen als <b> undefiniert</b> markiert werden müssen.</string>
+    <string name="welcome1_Ka">Die Kommunikationskanäle (kurz: Kanäle)</string>
+    <string name="welcome1_Katext">definieren die Art der Kommunikationsanfrage. Wird ein Kanal bei einer Durchdringung nicht verwendet, kann er als <b> undefiniert</b> markiert werden.</string>
+    <string name="welcome1_KatextBsp">Beispiele für Kanäle sind Telefon, E-Mail oder Nachricht.</string>
+    <string name="welcome1_BP">Boundary Profiling</string>
+    <string name="welcome1_BPtext">bildet eine Methode des Boundary Managements.
+        Ziel ist es jeden Quellkontext bzw. die darin definierten Rollen jeden Zielkontext gegenüber zu stellen und die Durchdringungskanäle zu definieren.\n\n
+    Diese App soll sie dabei unterstützen dieses Ziel zu erreichen!</string>
+    <string name="welcome1_info2">In den nächsten Schritten sollten die Begriffe noch etwas verständlicher werden. Außerdem erfahren Sie wie Sie am schnellsten zum Ziel kommen!</string>
+
+    <string name="welcome2_ueberschrift">2. Definition der</string>
+    <string name="welcome2_ueberschriftX">Kontexte</string>
+    <string name="welcome2_info">In welchen Kontexten bewegen Sie sich?\nOrientieren Sie sich an folgenden Inhalten.</string>
+    <string name="welcome2_Beispiele">Beispiele</string>
+    <string name="welcome2_Beispieletext">Arbeit, Familie, Universität, Sport, Kochen</string>
+    <string name="welcome2_Kalender">Kalender</string>
+    <string name="welcome2_Kalendertext">Möglicherweise finden Sie sinnvolle Kontexte in Ihren Kalendern:</string>
+    <string name="welcome2_Kontaktgruppen">Kontaktgruppen</string>
+    <string name="welcome2_Kontaktgruppentext">Möglicherweise finden Sie sinnvolle Kontexte in Ihren Kontaktgruppen:</string>
+    <string name="welcome2_info2">Sie finden die Definition der Kontexte später in der App im Menüreiter <b>Definition</b> unter <b>Definition der Kontexte &amp; Rollen</b>.</string>
+
+
+    <string name="welcome3_ueberschrift">3. Definition der</string>
+    <string name="welcome3_ueberschriftX">Rollen</string>
+    <string name="welcome3_info">Welche Rollen gehören zu den Kontexten?\nOrientieren Sie sich an folgenden Inhalten.</string>
+    <string name="welcome3_Beispiele">Beispiele</string>
+    <string name="welcome3_Beispieletext">Kontext: Arbeit\nRollen: Chef, Mitarbeiter\n\nKontext: Familie\nRollen: Eltern, Geschwister</string>
+    <string name="welcome3_KGruppe">Kontakte einer Kontaktgruppe</string>
+    <string name="welcome3_KGruppetext">Möglicherweise finden Sie sinnvolle Rollen in Ihren Kontaktgruppeneinträgen:</string>
+    <string name="welcome3_info2">Sie finden die Definition der Rollen im selben Fenster in dem Sie auch die Kontexte definieren können. D.h. im Menüreiter <b>Definition</b> unter <b>Kontexte &amp; Rollen</b>.</string>
+
+    <string name="welcome4_ueberschrift">4. Definition der</string>
+    <string name="welcome4_ueberschriftX">Kanäle</string>
+    <string name="welcome4_info">Wie kommunizieren Sie auf Ihrem Handy?\nOrientieren Sie sich an folgenden Inhalten.</string>
+    <string name="welcome4_Beispiele">Beispiele</string>
+    <string name="welcome4_Beispieletext">Telefon, Nachricht, E-Mail</string>
+    <string name="welcome4_Apps">Häufig installierte Apps</string>
+    <string name="welcome4_Appstext">Möglicherweise finden Sie sinnvolle Kanäle in Ihren installierten Apps. Hier finden Sie einen Auszug aus häufig installierten Apps:\n\nWhatsApp, Telegram, Messenger, Snapchat, ...</string>
+    <string name="welcome4_info2">Sie finden die Definition der Kanäle später in der App im Menüreiter <b>Definition</b> unter <b>Kanäle</b>.</string>
+
+    <string name="welcome5_ueberschrift">5. Profiling</string>
+    <string name="welcome5_info">Welche Durchdringungen von Quell- und Zielkontexten ergeben sich?</string>
+    <string name="welcome5_Beispiele">Beispiele</string>
+    <string name="welcome5_Beispieletext"><i>Chef ruft während des Familienspieleabends an. Obwohl der Anruf sehr störend ist wird er trotzdem angenommen.</i>\n
+        Quellkontext: <b>Arbeit</b> Quellrolle: <b>Chef</b> Zielkontext: <b>Familie</b>\n
+        Kanal: <b>Telefon</b> Eindringlichkeit hoch, Akzeptanz (rot mit Häckchen)\n\n
+
+        <i>Meine Geschwister schreiben mir keine E-Mails.</i>\n
+        Quellkontext: <b>Familie</b> Quellrolle: <b>Geschwister</b> Zielkontext: <b>ALLE</b>\n
+        Kanal: <b>E-Mail</b> undefiniert (grau mit Fragezeichen)\n\n
+
+        <i>Sport ist kein Quellkontext.</i>\n
+        Quellkontext: <b>Sport</b> Quellrolle: <b>Generell</b> Zielkontext: <b>ALLE</b>\n
+        Kanal: <b>ALLE</b> undefiniert (grau mit Fragezeichen)\n\n
+    </string>
+    <string name="welcome5">Denken Sie zurück an den letzten Anruf/die letzte Nachricht/die letzte E-Mail und fragen sie sich ...</string>
+    <string name="welcome5_text">
+    Zu welchem Kontext gehörte der letzte Anrufer/Absender? (=Quellkontext)\n
+    Ist der Anrufer/Absender Teil des Kontextes generell oder ist er Teil einer bestimmten Rolle? (=Quellrolle)\n
+    In welchem Kontext befanden Sie sich? (=Zielkontext)\n\n
+    Sind Quell- und Zielkontext unterschiedlich, handelt es sich um eine Durchdringung!\n\n
+    Hat Sie der Anruf/Absender gestört? (=Eindringlichkeit)\n
+    Haben Sie den Anruf angenommen bzw. umgehend geantwortet? (=Akzeptanz)\n</string>
+    <string name="welcome5_letzte_D">Häufige Kontakte</string>
+    <string name="welcome5_letzte_Dtext">Hier finden Sie einen Auszug der häufigsten Kontaktpersonen der Anrufliste.</string>
+    <string name="welcome5_info2">Sie können Ihre Profile in der App entweder unter dem Menüreiter <b>Profiling</b> erstellen oder im Reiter <b>Übersicht</b> auf ein undefiniertes Profil (hellgrau mit Fragezeichen) klicken.</string>
+    <string name="Zugriff_verweigert">Leider wurde der Zugriff verweigert! Bitte ändern Sie die Einstellungen!</string>
+
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lv_footer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/kanal_add"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_add_black_24dp"
+            android:visibility="visible"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/newkanal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/kanal_add"
+            android:layout_marginRight="20dp"
+            style="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+            android:hint="@string/neuer_kanal"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            />
+    </RelativeLayout>
+</LinearLayout>
